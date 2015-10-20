@@ -16,7 +16,7 @@ It reads the data from the [standard input][stdst], and writes the signed cipher
 ### Encrypting
 
 ```bash
-echo "Hello World!" | ./ts -p="TOP SECRET PASSWORD" > encrypted.txt
+echo "Hello World" | ./ts -p="TOP SECRET PASSWORD" > encrypted.txt
 [TripleSec] Encrypting...
 ```
 
