@@ -23,7 +23,7 @@ echo "Hello World!" | ./ts -p="TOP SECRET PASSWORD" > encrypted.txt
 ### Decrypting
 
 ```bash
-cat encrypted.txt | ./ts -decrypt
+cat encrypted.txt | ./ts -decrypt -p="TOP SECRET PASSWORD"
 [TripleSec] Decrypting...
 Hello World
 ```
